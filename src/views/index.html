@@ -5,12 +5,14 @@
 {% block styles %}
     <link rel="stylesheet" href="styles/home.css">
     <link rel="stylesheet" href="styles/modal.css">
+    <link rel="stylesheet" href="styles/darkmode.css">
 {% endblock styles %}
 
 {% block content %}
+
     <div class="content">
         <header>
-            <img src="icones/logo.svg" alt="Logomarca">
+            <img src="../assets/icones/logo.svg" alt="Logomarca">
             <a href="create-point">
                 <span></span>
                 Cadastre um ponto de coleta
@@ -30,10 +32,29 @@
     </div>
 {% endblock content %}
 
+{% block darkmode %}
+<div class="container">
+        <h1>Modo Claro / Escuro</h1>
+        <div class="toggle">
+            <input id="switch" type="checkbox" name="theme">
+            <label for="switch">Toggle</label>
+        </div>
+
+        <p>Mude caso esteja se sentindo desconfortável com a cor branca (dor visual ou até preferência).</p>
+    </div>
+    <script src="/scripts/scripts.js"></script>
+
+{% endblock darkmode %}
+
+
 {% block modal %}
     {% include "partials/modal.html" %}
 {% endblock modal %}
 
+
+
+
 {% block scripts %}
     <script src="/scripts/index.js"></script>
+
 {% endblock scripts %}
