@@ -36,4 +36,4 @@
 
 #### Foi finalizada a parte back-end do código, como tecnologia foi usada o SQLite3, que reside na própria aplicação, foram criados os arquivos de configuração do banco de dados, a tabela. Foi inserido a uma "página" semelhante a consulta de cidade = página de cadastro.
 
-![](https://github.com/pushline/Next-Level-Week/blob/master/public/assets/cadastroConcluido.png)
+![](https://github.com/pushline/Next-Level-Week/blob/master/public/assets/cadastro.png)
